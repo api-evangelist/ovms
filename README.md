@@ -64,5 +64,23 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Open Vehicle Monitoring System (self-hosted) is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://openvehicles.com/
+Open Vehicle Monitoring System (OVMS) is an open‑source, self‑hosted telematics platform for electric and hybrid vehicles. It provides real‑time vehicle data, remote commands, and extensive support for many car models. Users can install the system on their own hardware, integrate with MQTT, and customize dashboards. The project is community‑driven, with documentation, source code, and hardware designs publicly available.
+
+**Areas:** Company · Telematics · Electric Vehicles · Open Source · IoT · Automotive
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://openvehicles.com/)
+- [Documentation](https://docs.openvehicles.com/)
+- [Pricing](https://www.openvehicles.com/buy)
+- [Support](https://www.openvehicles.com/forum)
+- [GitHub](https://github.com/openvehicles)
+- [Status](https://status.openvehicles.com/)
+
+**APIs profiled:** 2
+
+## API Evangelist rating
+
+Not yet rated. See [apis.io/providers/ovms/](https://apis.io/providers/ovms/).
