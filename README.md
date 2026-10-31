@@ -68,6 +68,38 @@ Open Vehicle Monitoring System (OVMS) is an open‑source, self‑hosted telemat
 
 **Areas:** Company · Telematics · Electric Vehicles · Open Source · IoT · Automotive
 
+## Open Vehicle Monitoring System (self-hosted) on APIs.io
+
+Everything profiled for Open Vehicle Monitoring System (self-hosted) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ovms/](https://apis.io/providers/ovms/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [OVMS HTTP API](https://apis.io/apis/ovms/ovms-http-api/) — For some time now I’ve wanted to offer an HTTP API for OVMS. The existing car↔server and server↔app protocol is cool, but requires going through some hoops…
+- [Open Vehicle Monitoring System (self-hosted) API](https://apis.io/apis/ovms/ovms-api/) — Open Vehicle Monitoring System (self-hosted) API as documented publicly: 7 operations. Contract generated from the documentation by API Evangelist…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Open Vehicle Monitoring System (self-hosted) API Rules](https://apis.io/rules/ovms/ovms-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ovms Authentication](https://apis.io/security/ovms/ovms-authentication/)
+- [Ovms Domain Security](https://apis.io/security/ovms/ovms-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Ovms Scopes](https://apis.io/scopes/ovms/ovms-scopes/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
@@ -79,8 +111,57 @@ Links to the company's own pages. This repository publishes no copy of their spe
 - [GitHub](https://github.com/openvehicles)
 - [Status](https://status.openvehicles.com/)
 
-**APIs profiled:** 2
-
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/ovms/](https://apis.io/providers/ovms/).
+**Kin Score 39.3** — developing · rubric 0.25.0 · scored 2026-10-28
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 35.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 30.2 |
+| Access clarity | 23.7 |
+
+**Agent readiness 23.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 20.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ovms/](https://apis.io/providers/ovms/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Open Vehicle Monitoring System (self-hosted): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ovms/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
